@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "type": "timerTrigger",
+      "direction": "in",
+      "name": "Request",
+      "schedule": "0,15,30,45 * * * *",
+      "runOnStartup": "false"
+    }
+  ]
+}
